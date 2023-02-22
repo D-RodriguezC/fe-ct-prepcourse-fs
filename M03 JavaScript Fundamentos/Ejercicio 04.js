@@ -7,15 +7,15 @@ function elevarAlCuadrado(num) {
    // Retorna el valor de "num" elevado al cuadrado.
    // Tu código:
     let res = num * num;
-    return res;
+      return res;
 }
 
 
 function elevarAlCubo(num) {
    // Retorna el valor de "num" elevado al cubo.
    // Tu código:
-   let elev = num * num * num;
-   return elev;
+   return  num * num * num;
+
 
    
 }
@@ -25,24 +25,23 @@ function elevar(num, exponent) {
    // Retorna el valor de "num" elevado al exponente "exponent".
    // Tu código:
 
-   let elv = Math.pow(num,exponent)
-   return elv;
+   return Math.pow(num,exponent)
+ 
 }
 
 
 function redondearNumero(num) {
    // Redondea "num" al entero más próximo y retórnalo.
    // Tu código:
-   let red = Math.round(num)
-   return red;
+   return Math.round(num)
+   
 }
-
 
 function redondearHaciaArriba(num) {
    // Redondea "num" hacia arriba y retórnalo.
    // Tu código:
-   let redon = Math.ceil(num)
-   return redon;
+   return Math.ceil(num)
+  
 }
 
 

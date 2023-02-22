@@ -36,8 +36,7 @@ function menosQueNoventa(num) {
       return false
     } 
  }
- let menos = menosQueNoventa(70)
- console.log(menos)
+ 
 
 
 function mayorQueCincuenta(num) {
@@ -50,9 +49,7 @@ function mayorQueCincuenta(num) {
       return false;
     } 
  }
- let mayor = mayorQueCincuenta(100);
- console.log(mayor);
-
+ 
 
 function esPar(num) {
    // Retorna true si "num" es par.
@@ -64,8 +61,7 @@ function esPar(num) {
       return false;
     }
  }
- let es = esPar(4);
- console.log(es)
+
 
 
 function esImpar(num) {
@@ -78,8 +74,7 @@ function esImpar(num) {
       return false;
     }
  }
- let esi = esImpar(152);
- console.log(esi)
+ 
 
 
 /*⚠️ NO MODIFIQUES NADA DEBAJO DE ESTO ⚠️*/
